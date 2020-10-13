@@ -1,0 +1,79 @@
+.carousel {
+   
+  margin: auto;
+  width: 100%;
+
+    
+}
+.body{
+  
+}
+.text{
+    color: black;
+   text-align: center;
+   
+}
+
+.card{
+    
+    border-image-width: auto;
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+.form-inline{
+    margin-left: 10px;
+}
+.slider-container{
+  position: relative;
+  width: 50%;
+}
+.slider-img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.paddingx{
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+.text-header{
+    
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    
+/*
+    top: 39%;
+    right: 43%;
+    color: white;
+*/
+    font-size: 480%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#section2{
+    background-color: lightgray;
+}
